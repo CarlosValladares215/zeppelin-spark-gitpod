@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: "Iniciar entorno"
+    init: bash init.sh
+    command: echo "Entorno listo"
